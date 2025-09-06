@@ -20,8 +20,7 @@ Runs in the background and cleanly exits on command for an easy accessibility so
 
 Install `pynput`:
 
-```bash
-pip install pynput```
+```bash pip install pynput```
 
 ## Usage
 
