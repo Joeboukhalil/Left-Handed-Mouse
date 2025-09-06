@@ -41,8 +41,10 @@ Install `pynput`:
 
 2. Create a batch file swap_mouse.bat with:
 
-```bash @echo off
-pythonw "C:\Users\<YourName>\Documents\lefthanded_mouse.py" ```
+```bash
+@echo off
+pythonw "C:\Users\<YourName>\Documents\lefthanded_mouse.py"
+```
 
 
 3. Press Win + R, type shell:startup, and hit Enter.
