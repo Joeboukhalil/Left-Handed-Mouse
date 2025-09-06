@@ -63,8 +63,7 @@ pythonw "C:\Users\<YourName>\Documents\lefthanded_mouse.py"
 
 1. Make the script executable:
 
-```bash
-chmod +x lefthanded_mouse.py ```
+```bash chmod +x lefthanded_mouse.py ```
 
 
 2. Create a systemd service at ~/.config/systemd/user/lefthanded_mouse.service:
@@ -78,14 +77,16 @@ ExecStart=/usr/bin/python3 /home/<yourname>/lefthanded_mouse.py
 Restart=always
 
 [Install]
-WantedBy=default.target ```
+WantedBy=default.target
+```
 
 
 3. Enable and start the service:
 
 ```bash
 systemctl --user enable lefthanded_mouse.service
-systemctl --user start lefthanded_mouse.service ```
+systemctl --user start lefthanded_mouse.service
+```
 
 
 
@@ -99,8 +100,7 @@ systemctl --user start lefthanded_mouse.service ```
 
 2. Open Automator → Application → add Run Shell Script:
 
-```bash
-/usr/bin/python3 /Users/<yourname>/Documents/lefthanded_mouse.py ```
+```bash /usr/bin/python3 /Users/<yourname>/Documents/lefthanded_mouse.py ```
 
 
 3. Save as SwapMouse.app.
