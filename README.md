@@ -26,8 +26,7 @@ Install `pynput`:
 
 1. Save the script as lefthanded_mouse.py.
 2. Run the script:
-```bash
-python lefthanded_mouse.py ```
+```bash python lefthanded_mouse.py ```
 
 3. The script will swap your mouse buttons. Press Ctrl+C in the terminal to stop
 
@@ -42,8 +41,7 @@ python lefthanded_mouse.py ```
 
 2. Create a batch file swap_mouse.bat with:
 
-```bash
-@echo off
+```bash @echo off
 pythonw "C:\Users\<YourName>\Documents\lefthanded_mouse.py" ```
 
 
